@@ -18,7 +18,7 @@ var pickAnAnswer = document.querySelector("#error");
 if (highestscore) {
     bestplayer.innerHTML = highestscore;
 }
-var timeLeft = 20;
+var timeLeft = 50;
 var interval = false;
 
 var userMustSelect = false;
@@ -84,7 +84,7 @@ function startGame() {
 var startTimer = function () {
     if (interval != false) {
         clearInterval(interval);
-        timeLeft = 20;
+        timeLeft = 50;
         opt1.style.background = "#3c32a8";
         opt2.style.background = "#3c32a8";
         opt3.style.background = "#3c32a8";
