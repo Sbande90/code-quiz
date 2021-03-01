@@ -13,3 +13,5 @@ THEN you can save my initials and score
 
 ## deployed link
 [see me](https://sbande90.github.io/code-quiz/)
+
+![click me](./image.png)
